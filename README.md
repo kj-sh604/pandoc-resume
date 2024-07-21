@@ -2,7 +2,11 @@
 
 *Create your resume/CV easily using a single markdown file (`index.md`).*
 
+**HTML Output Example**
+
 ![Image of HTML Output](img/README_examples/html.png)
+
+**PDF Output Example**
 
 ![Image of PDF Output](img/README_examples/pdf.png)
 
