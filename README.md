@@ -17,7 +17,7 @@ A Makefile is provided so that you can compile it into both a LaTeX PDF and an H
 ### HTML Output
 - Responsive web design, custom background, and div settings with `style.css`.
 - Automatically generated "table of contents" transformed into a menu bar with dropdown subsections.
-- Longer content sections are hidden and revealed on mouseover or a single-tap on mobile.
+- Longer content sections are hidden and revealed on mouseover (or with a single-tap on mobile).
 
 ### PDF Output
 - Custom LaTeX template (`template.tex`) used for PDF generation.
