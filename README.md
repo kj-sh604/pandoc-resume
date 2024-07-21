@@ -3,7 +3,6 @@
 *Create your resume/CV easily using a single markdown file (`index.md`).*
 
 ![Image of HTML Output](img/README_examples/html.png)
-![Image of HTML Output on mobile](img/README_examples/html-on-mobile.png)
 
 ![Image of PDF Output](img/README_examples/pdf.png)
 
