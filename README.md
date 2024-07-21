@@ -1,22 +1,32 @@
 # Revival of an Old Markdown to Resume/CV Make Script
 
-*It's simple. There's one markdown file `index.md`, which has all of your personal information and details in nice little sections and subsections.*
+*Create your resume/CV easily using a single markdown file (`index.md`).*
 
-A makefile is used to compile it into a LaTeX .pdf and an HTML file via pandoc.
+![Image of HTML Output](img/README_examples/html.png)
+![Image of HTML Output on mobile](img/README_examples/html-on-mobile.png)
 
-For the HTML, a CSS stylesheet is provided (`style.css`) which:
-- Gives a custom background and div settings for the content area.
-- Creates a "table of contents" from the section headings and converts that into a menu bar where the subsections drop down.
-- Hides some longer content away to reappear on mouseover.
+![Image of PDF Output](img/README_examples/pdf.png)
 
-For the LaTeX/pdf, a pandoc LaTeX template file is used with some custom settings as well.
-These are located in the `template.tex` file.
+A Makefile is provided so that you can compile it into both a LaTeX PDF and an HTML file using `pandoc`.
 
-## Use
-Make changes to the markdown file `index.md`. Run `make` (or `make compile`) and it will produce a .pdf and .html.
+## Features
+
+### HTML Output
+- Responsive web design, custom background, and div settings with `style.css`.
+- Automatically generated "table of contents" transformed into a menu bar with dropdown subsections.
+- Longer content sections are hidden and revealed on mouseover or a single-tap on mobile.
+
+### PDF Output
+- Custom LaTeX template (`template.tex`) used for PDF generation.
+
+## Usage
+1. Edit the `index.md` with your editor of choice.
+2. Run `make` (or `make compile`) to generate a PDF and HTML file.
 
 ## Dependencies
-pandoc, LaTeX, and if you want to use the makefile, make (you can copy the commands and run them manually if you want).
+- `pandoc`
+- `LaTeX`
+- `make` (optional, commands in the `Makefile` can be run indivdually)
 
-## Links:
-* [Original Public Archive](https://github.com/LukeSmithxyz/md-website-cv)
+## Links
+- [Original Public Archive](https://github.com/LukeSmithxyz/md-website-cv)
