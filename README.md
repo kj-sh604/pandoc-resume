@@ -1,6 +1,6 @@
-# Revival of an Old Markdown to Resume/CV Make Script
+# Revival of an Old Markdown to Résumé/CV Make Script
 
-*Create your resume/CV easily using a single markdown file (`index.md`).*
+*Create your résumé/CV easily using a single markdown file (`index.md`).*
 
 **HTML Output Example**
 
