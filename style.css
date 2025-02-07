@@ -80,7 +80,7 @@ nav li:hover>a:hover {
 
 body {
     border-radius: 1.25rem;
-    font-family: sans-serif;
+    font-family: sans-serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
     font-size: 1rem;
     line-height: 1.7;
     padding: 0.125rem 1rem 0.5rem;
@@ -194,7 +194,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: monospace, monospace;
+    font-family: monospace, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
     font-size: 0.98rem;
 }
 
